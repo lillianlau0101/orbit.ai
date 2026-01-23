@@ -1,18 +1,34 @@
-# orbit.ai 🛰️
+# orbit.ai
 
-> **"Like a satellite orbiting your life, capturing emotions in silence."**
+> **A satellite for your mental space.**
 
-**orbit.ai** 是一款基于微信小程序和腾讯混元大模型 (Hunyuan-pro) 的治愈系情绪日记。
+`orbit.ai` is a minimalist emotional diary companion. It leverages Tencent Hunyuan-pro to bridge the gap between messy daily thoughts and structured mental insights.
 
-## 🪐 核心功能
-- **温柔陪伴**：AI 伴侣“零零”实时互动，提供情感支持。
-- **情绪量化**：自动提取 1-10 情绪分值。
-- **洞察卡片**：自动生成带标签的“事件”与“决策”复盘。
+---
 
-## 🛠️ 开始使用
-1. 在 `app.js` 中填入你的环境 ID：`orbitversion1-5ghftm43a0cd8f37`。
-2. 部署 `cloudfunctions` 文件夹下的云函数。
-3. 确保基础库版本 >= 3.0.0。
+## Architecture
+
+- **Core**: WeChat Native Framework
+- **Brain**: Hunyuan-pro LLM via WeChat CloudBase
+- **Vibe**: Warm Beige Minimalism
+
+## Features
+
+- **satellite_talk**: Real-time empathic conversation with AI "LingLing".
+- **mood_mapping**: Automated quantification of emotional valence (1-10).
+- **insight_card**: Structural extraction of events, decisions, and triggers.
+
+## Setup
+
+1. Clone the repo.
+2. Replace `env` in `app.js` with your CloudBase ID.
+3. Deploy functions in `/cloudfunctions`.
+
+---
+
+## License
+
+MIT © [Your Name]
 
 ## 📸 预览
 <img width="555" height="915" alt="image" src="https://github.com/user-attachments/assets/db43aace-4a57-4466-bb80-52eece4e638e" />
